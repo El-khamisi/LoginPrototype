@@ -1,0 +1,139 @@
+html {
+    background: url(src/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: linear-gradient( blue, violet);
+    padding-top: 3%;
+    margin: 5% auto 4% auto;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 100px;
+}
+
+h1 {
+    color: white;
+}
+
+.fa {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.usrName {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid white;
+    text-align: left;
+}
+
+.usrName-input {
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    color: white;
+    outline: none;
+}
+
+.pass {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid white;
+    text-align: left;
+}
+
+.pass-input {
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    size: 2em;
+}
+
+.checkbox-container {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 9%;
+    padding-top: 0;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+}
+
+input[type="checkbox"]::after {
+    font-family: "FontAwesome";
+    font-size: 20px;
+    content: '\f00c';
+    border-radius: 20%;
+    color: violet;
+    background-color: white;
+    display: none;
+}
+
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 13%;
+    font-size: 1.5em;
+    color: rgb(32, 32, 32);
+    background-color: white;
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
