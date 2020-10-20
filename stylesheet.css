@@ -143,4 +143,8 @@ input[type="checkbox"]:checked::after {
         background-size: auto;
         background-repeat: no-repeat;
     }
+    body {
+        height: 70%;
+        width: 60%;
+    }
 }
