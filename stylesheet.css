@@ -137,3 +137,10 @@ input[type="checkbox"]:checked::after {
     font-size: 1em;
     color: white;
 }
+
+@media(max-width: 767px) {
+    html {
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
