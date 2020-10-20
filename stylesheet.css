@@ -138,7 +138,7 @@ input[type="checkbox"]:checked::after {
     color: white;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 400px) {
     html {
         background-size: auto;
         background-repeat: no-repeat;
